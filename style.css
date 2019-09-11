@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-t {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-f {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-t p {
+    width: 200px;
+}
+
+.container-p {
+    text-align: center;
+    align-items: center;
+}
+
+.hero {
+    flex-grow: 2;
+}
